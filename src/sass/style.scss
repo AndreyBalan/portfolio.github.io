@@ -13,6 +13,7 @@
 body {
 	background: #1F1E1C;
 	color: #e8e8e8;
+	cursor: none;
 }
 
 .container {
@@ -39,4 +40,5 @@ body {
 @import 'blocks/price';
 @import 'blocks/contacts';
 @import 'blocks/test';
+@import 'blocks/cursor';
 @import 'blocks/media';

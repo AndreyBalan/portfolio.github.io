@@ -45,6 +45,14 @@
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+
+	<!-- Cursor -->
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+	<div class='cursor3' id="cursor3"></div>
+	
+	<!-- cursor end -->
+
 	<aside class="sidepanel animate__animated animate__rollIn wow">
 		<a href="https://www.facebook.com/profile.php?id=100004198513437" class="sidepanel__link">
 			<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,14 +124,14 @@
 	</div>
 
 	<section class="promo">
-		<div class="hamburger">
+		<div class="hamburger hover-target">
 			<span></span>
 			<span class="long"></span>
 			<span></span>
 		</div>
 		<div class="container">
 			<div class="title title_fz16 promo__subtitle animate__animated animate__fadeInDownBig wow">Hi, my name is</div>
-			<h2 class="title title_name promo__title animate__animated animate__backInLeft wow" data-wow-delay="1s">Andrew Balan</h2>
+			<h2 class="title title_name promo__title hover-target animate__animated animate__backInLeft wow" data-wow-delay="1s">Andrew Balan</h2>
 			<h1 class="title title_fz48 promo__title animate__animated animate__fadeInRight wow">Web Developer from Vinnytsia, Ukraine</h1>
 			<div class="promo__btns animate__animated animate__fadeInUpBig wow">
 				<a href="#" class="promo__link btn">Portfolio</a>
@@ -143,7 +151,7 @@
 				</div>
 				<div class="about__descr">
 					<h2 class="title title_fz16 about__title">About me</h2>
-					<div class="title title_fz36 about__subtitle">My name is Andrew</div>
+					<div class="title title_fz36 about__subtitle hover-target">My name is Andrew</div>
 					<div class="divider"></div>
 					<p class="about__text">Hello! My name is Andrey and I enjoy creating everything that you see on your screen.</p>
 					<p class="about__text">My interest in web development started when I was taking QA courses. It was then that I realized what I wanted to do. But as always, something went wrong, oops.</p>
@@ -185,7 +193,7 @@
 	<section class="resume animate__animated animate__fadeInUp wow">
 		<div class="container">
 			<h2 class="title title_fz16 title__section-title">Experience</h2>
-			<div class="title title_fz36 title__section-subtitle">How can I be useful</div>
+			<div class="title title_fz36 title__section-subtitle hover-target">How can I be useful</div>
 			<div class="divider"></div>
 			
 			<div class="resume__wrapper">
@@ -276,7 +284,7 @@
 	<section class="skills">
 		<div class="container">
 			<h2 class="title title_fz16 title__section-title">Skills</h2>
-			<div class="title title_fz36 title__section-subtitle">What do I use</div>
+			<div class="title title_fz36 title__section-subtitle hover-target">What do I use</div>
 			<div class="divider"></div>
 			<div class="skills__wrapper">
 				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.2s">
@@ -342,7 +350,7 @@
 	<section class="portfolio">
 		<div class="container">
 			<h2 class="title title_fz16 title__section-title">Portfolio</h2>
-			<div class="title title_fz36 title__section-subtitle">Works</div>
+			<div class="title title_fz36 title__section-subtitle hover-target">Works</div>
 			<div class="divider"></div>
 
 			<div class="portfolio__wrapper">
@@ -416,7 +424,7 @@
 				</div>
 				<div class="contacts__descr">
 					<h2 class="title title_fz16 contacts__title">Contacts</h2>
-					<div class="title title_fz36 contacts__subtitle">Contact with me</div>
+					<div class="title title_fz36 contacts__subtitle hover-target">Contact with me</div>
 					<div class="divider"></div>
 
 					<div class="title title_fz14 contacts__text">
@@ -468,6 +476,7 @@
 		
 	</section>
 
+	<script src="js/app.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
