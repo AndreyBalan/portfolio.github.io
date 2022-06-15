@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Portfolio Andrew Balan</title>
+	<title>Andrew Balan</title>
 	<meta name="title" content="Мое портфолио">
 	<meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
 
@@ -41,10 +41,11 @@
 	<meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-	<aside class="sidepanel">
+	<aside class="sidepanel animate__animated animate__rollIn wow">
 		<a href="https://www.facebook.com/profile.php?id=100004198513437" class="sidepanel__link">
 			<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M-7.46167e-07 2.92969L-1.28061e-07 17.0703C-5.74539e-08 18.6856 1.31439 20 2.92969 20L17.0703 20C18.6856 20 20 18.6856 20 17.0703L20 11.1719L12.9297 11.1719L12.9297 13.5156L9.41406 13.5156L9.41406 11.1719L7.03125 11.1719C5.09262 11.1719 3.51562 9.59488 3.51562 7.65625L3.51562 4.10156L7.03125 4.10156L7.03125 7.65625L9.41406 7.65625L9.41406 4.10156L12.9297 4.6875L12.9297 7.65625L20 7.65625L20 2.92969C20 1.31439 18.6856 -8.16774e-07 17.0703 -7.46167e-07L2.92969 -1.28061e-07C1.31439 -5.74539e-08 -8.16774e-07 1.31439 -7.46167e-07 2.92969Z" fill="black"/>
@@ -66,7 +67,7 @@
 				
 		</a>
 		<div class="sidepanel__divider"></div>
-		<div class="sidepanel__text"><span>Социальные сети</span></div>
+		<div class="sidepanel__text"><span>Socials</span></div>
 	</aside>
 
 	<div class="menu">
@@ -80,12 +81,12 @@
 
 			<nav>
 				<ul class="menu__list">
-					<li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-					<li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-					<li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-					<li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-					<li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-					<li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+					<li class="menu__link"><a href="#">ABOUT ME</a></li>
+					<li class="menu__link"><a href="#">EXPERIENCE</a></li>
+					<li class="menu__link"><a href="#">SKILLS</a></li>
+					<li class="menu__link"><a href="#">PORTFOLIO</a></li>
+					<li class="menu__link"><a href="#">PRICE LIST</a></li>
+					<li class="menu__link"><a href="#">CONTACTS</a></li>
 				</ul>
 			</nav>
 
@@ -121,30 +122,32 @@
 			<span></span>
 		</div>
 		<div class="container">
-			<div class="title title_fz16 promo__subtitle">Меня зовут Андрей Балан</div>
-			<h1 class="title title_fz48 promo__title">Я web-разработчик из города Винница</h1>
-			<div class="promo__btns">
-				<a href="#" class="promo__link btn">Портфолио</a>
-				<a href="#" class="promo__link">Про меня</a>
+			<div class="title title_fz16 promo__subtitle animate__animated animate__fadeInDownBig wow">Hi, my name is</div>
+			<h2 class="title title_name promo__title animate__animated animate__backInLeft wow" data-wow-delay="1s">Andrew Balan</h2>
+			<h1 class="title title_fz48 promo__title animate__animated animate__fadeInRight wow">Web Developer from Vinnytsia, Ukraine</h1>
+			<div class="promo__btns animate__animated animate__fadeInUpBig wow">
+				<a href="#" class="promo__link btn">Portfolio</a>
+				<a href="#" class="promo__link">About</a>
 			</div>
 		</div>
 	</section>
 
-	<section class="about">
+	<section class="about animate__animated animate__fadeInUp wow">
 		<div class="container">
 			<div class="about__wrapper">
 				<div class="about__photo">					
 					<picture>
-						<source media="(max-width: 576px)" srcset="img/main_photo-min.jpg">
 						<source media="(min-width: 577px)" srcset="img/main_photo.jpg">
 						<img src="img/main_photo.jpg" alt="photo">
 					</picture>
 				</div>
 				<div class="about__descr">
-					<h2 class="title title_fz16 about__title">Про меня</h2>
-					<div class="title title_fz36 about__subtitle">Меня зовут Андрей</div>
+					<h2 class="title title_fz16 about__title">About me</h2>
+					<div class="title title_fz36 about__subtitle">My name is Andrew</div>
 					<div class="divider"></div>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					<p class="about__text">Hello! My name is Andrey and I enjoy creating everything that you see on your screen.</p>
+					<p class="about__text">My interest in web development started when I was taking QA courses. It was then that I realized what I wanted to do. But as always, something went wrong, oops.</p>
+					<p class="about__text">Now I am finally a beginner web developer and I will be glad to work with you!</p>
 				</div>
 				<div class="about__skills">
 					<div class="about__skills-item">
@@ -152,8 +155,8 @@
 							<img src="icons/about_me/web_development.svg" alt="web-dev">
 						</div>
 						<div>
-							<div class="title title_fz14">Web-разработка</div>
-							<div class="about__skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+							<div class="title title_fz14">Web Development</div>
+							<div class="about__skills-text">Creation of sites of any complexity using different development methods.</div>
 						</div>
 					</div>
 					<div class="about__skills-item">
@@ -161,8 +164,8 @@
 							<img src="icons/about_me/mobile_dev.svg" alt="mob-dev">
 						</div>
 						<div>
-							<div class="title title_fz14">Разработка приложений</div>
-							<div class="about__skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+							<div class="title title_fz14">Mobile Version</div>
+							<div class="about__skills-text">Your sites will be adapted to all mobile phones and tablets of any size</div>
 						</div>
 					</div>
 					<div class="about__skills-item">
@@ -170,8 +173,8 @@
 							<img src="icons/about_me/design.svg" alt="web-dev">
 						</div>
 						<div>
-							<div class="title title_fz14">UI/UX Design</div>
-							<div class="about__skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+							<div class="title title_fz14">Interactivity</div>
+							<div class="about__skills-text">Your site will be interactive, with animations that your competitors won't have</div>
 						</div>
 					</div>
 				</div>
@@ -179,15 +182,15 @@
 		</div>
 	</section>
 
-	<section class="resume">
+	<section class="resume animate__animated animate__fadeInUp wow">
 		<div class="container">
-			<h2 class="title title_fz16 title__section-title">Опыт</h2>
-			<div class="title title_fz36 title__section-subtitle">Чем я буду полезен</div>
+			<h2 class="title title_fz16 title__section-title">Experience</h2>
+			<div class="title title_fz36 title__section-subtitle">How can I be useful</div>
 			<div class="divider"></div>
 			
 			<div class="resume__wrapper">
 				<div class="resume__column">
-					<h3 class="title title_fz20 resume__column-title">Образование</h3>
+					<h3 class="title title_fz20 resume__column-title">Education</h3>
 					<ul>
 						<li>
 							<div class="resume__item">
@@ -195,11 +198,11 @@
 									<div class="resume__item-icon">
 										<img src="icons/experience/university.svg" alt="university">
 									</div>
-									<h4 class="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
-									<div class="resume__item-location">Диплом магистра | Москва (2014-2020)</div>
+									<h4 class="title title_fz14">VITE KNUTE</h4>
+									<div class="resume__item-location">Master's degree | Vinnytsia (2010-2016)</div>
 								</div>
 								<div class="resume__item-body">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+									Master's degree in the specialty "Commercial Logistics" and "Management of commodity systems and merchandising"
 								</div>
 							</div>
 						</li>
@@ -209,18 +212,43 @@
 									<div class="resume__item-icon">
 										<img src="icons/experience/courses.svg" alt="udemy">
 									</div>
-									<h4 class="title title_fz14">Udemy</h4>
-									<div class="resume__item-location">Курсы по Web-разработке</div>
+									<h4 class="title title_fz14">SkillUp IT School</h4>
+									<div class="resume__item-location">
+										QA courses | Kyiv (2017)</div>
 								</div>
 								<div class="resume__item-body">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+									
+								</div>
+							</div>
+							<div class="resume__item">
+								<div class="resume__item-head">
+									<div class="resume__item-icon">
+										<img src="icons/experience/courses.svg" alt="udemy">
+									</div>
+									<h4 class="title title_fz14">EasyCode IT School</h4>
+									<div class="resume__item-location">Web development courses (HTML/CSS) / Online (2019)</div>
+								</div>
+								<div class="resume__item-body">
+									 
+								</div>
+							</div>
+							<div class="resume__item">
+								<div class="resume__item-head">
+									<div class="resume__item-icon">
+										<img src="icons/experience/courses.svg" alt="udemy">
+									</div>
+									<h4 class="title title_fz14">Udemy</h4>
+									<div class="resume__item-location">Front-End + JavaScript + React / Online (2022)</div>
+								</div>
+								<div class="resume__item-body">
+									 
 								</div>
 							</div>
 						</li>
 					</ul>
 				</div>
 				<div class="resume__column">
-					<h3 class="title title_fz20 resume__column-title">Опыт работы</h3>
+					<h3 class="title title_fz20 resume__column-title">Experience</h3>
 					<ul>
 						<li>
 							<div class="resume__item">
@@ -228,27 +256,16 @@
 									<div class="resume__item-icon">
 										<img src="icons/experience/developer.svg" alt="developer">
 									</div>
-									<h4 class="title title_fz14">Front-End Developer</h4>
-									<div class="resume__item-location">EPAM | Москва (2018-2019)</div>
+									<h4 class="title title_fz14">QA engineer</h4>
+									<div class="resume__item-location">Glyanets Web Studio | Vinnytsia (2018-2020)</div>
 								</div>
 								<div class="resume__item-body">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+									Manual testing of sites, work with content, context advertising.
 								</div>
 							</div>
 						</li>
 						<li>
-							<div class="resume__item">
-								<div class="resume__item-head">
-									<div class="resume__item-icon">
-										<img src="icons/experience/designer.svg" alt="designer">
-									</div>
-									<h4 class="title title_fz14">UI/UX Designer</h4>
-									<div class="resume__item-location">Squad Team | Москва (2018)</div>
-								</div>
-								<div class="resume__item-body">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-								</div>
-							</div>
+							
 						</li>
 					</ul>
 				</div>
@@ -258,98 +275,74 @@
 	
 	<section class="skills">
 		<div class="container">
-			<h2 class="title title_fz16 title__section-title">Навыки</h2>
-			<div class="title title_fz36 title__section-subtitle">Что я использую в работе</div>
+			<h2 class="title title_fz16 title__section-title">Skills</h2>
+			<div class="title title_fz36 title__section-subtitle">What do I use</div>
 			<div class="divider"></div>
 			<div class="skills__wrapper">
-				<div class="skills__item">
+				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.2s">
 					<img src="icons/skills/html5.svg" alt="html5" class="skills__item-icon">
 					<h4 class="skills__item-subtitle title title_fz14">HTML5</h4>
-					<div class="skills__item-descr">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</div>
+					<div class="skills__item-descr">It builds the skeleton of your site or app, and the fifth version will allow me to create a more SEO-optimized structure for your product</div>
 				</div>
-				<div class="skills__item">
+				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.3s">
 					<img src="icons/skills/css3.svg" alt="css3" class="skills__item-icon">
 					<h4 class="skills__item-subtitle title title_fz14">CSS3</h4>
-					<div class="skills__item-descr">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</div>
+					<div class="skills__item-descr">This style language allows me to create absolutely any look for your site or application. Everything is limited only by your imagination!</div>
 				</div>
-				<div class="skills__item">
+				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.4s">
 					<img src="icons/skills/js.svg" alt="javascript" class="skills__item-icon">
 					<h4 class="skills__item-subtitle title title_fz14">Java Script</h4>
-					<div class="skills__item-descr">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
+					<div class="skills__item-descr">This programming language allows you to bring anything to life: sliders, windows, tooltips, tabs, receiving data from the server, and much more.</div>
 				</div>
-				<div class="skills__item">
+				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.5s">
 					<img src="icons/skills/jquery.svg" alt="Jquery" class="skills__item-icon">
 					<h4 class="skills__item-subtitle title title_fz14">Jquery</h4>
-					<div class="skills__item-descr">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</div>
+					<div class="skills__item-descr">The Jquery library will speed up development. We will not integrate it into the project unnecessarily.</div>
 				</div>
-				<div class="skills__item">
+				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.6s">
 					<img src="icons/skills/react.svg" alt="React" class="skills__item-icon">
 					<h4 class="skills__item-subtitle title title_fz14">React</h4>
-					<div class="skills__item-descr">Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</div>
+					<div class="skills__item-descr">This library allows you to create web applications. We can create the most interactive product for your purposes</div>
 				</div>
-				<div class="skills__item">
+				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.7s">
 					<img src="icons/skills/node.js.svg" alt="Node.js" class="skills__item-icon">
 					<h4 class="skills__item-subtitle title title_fz14">Node.js</h4>
-					<div class="skills__item-descr">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</div>
-				</div>
-				<div class="skills__item">
-					<img src="icons/skills/mongo.db.svg" alt="Mongo.db" class="skills__item-icon">
-					<h4 class="skills__item-subtitle title title_fz14">Mongo.db</h4>
-					<div class="skills__item-descr">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</div>
+					<div class="skills__item-descr">This platform allows you to create a backend for your product - "brains" that will perform actions that the user does not see</div>
 				</div>
 			</div>
 			
 			<div class="skills__ratings">
-                <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Создание сайтов</div>
-                    <div class="skills__ratings-counter">100%</div>
-                    <div class="skills__ratings-line">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Создание приложений</div>
-                    <div class="skills__ratings-counter">85%</div>
-                    <div class="skills__ratings-line">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Работа с данными</div>
-                    <div class="skills__ratings-counter">90%</div>
-                    <div class="skills__ratings-line">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Креативность</div>
-                    <div class="skills__ratings-counter">75%</div>
-                    <div class="skills__ratings-line">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Создание дизайна</div>
-                    <div class="skills__ratings-counter">90%</div>
-                    <div class="skills__ratings-line">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Soft skills</div>
-                    <div class="skills__ratings-counter">95%</div>
-                    <div class="skills__ratings-line">
-                        <span></span>
-                    </div>
-                </div>
-            </div>
+				<div class="skills__ratings-item animate__animated animate__slideInLeft wow" data-wow-delay="0.1s">
+					<div class="title title_fz14 skills__ratings-title">Website development</div>
+					<div class="skills__ratings-counter">90%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+			
+				<div class="skills__ratings-item animate__animated animate__slideInUp wow" data-wow-delay="0.1s">
+					<div class="title title_fz14 skills__ratings-title">Creativity</div>
+					<div class="skills__ratings-counter">85%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+		
+				<div class="skills__ratings-item animate__animated animate__slideInRight wow" data-wow-delay="0.1s">
+					<div class="title title_fz14 skills__ratings-title">Soft skills</div>
+					<div class="skills__ratings-counter">100%</div>
+					<div class="skills__ratings-line">
+						<span></span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
 	<section class="portfolio">
 		<div class="container">
-			<h2 class="title title_fz16 title__section-title">Портфолио</h2>
-			<div class="title title_fz36 title__section-subtitle">Мои работы</div>
+			<h2 class="title title_fz16 title__section-title">Portfolio</h2>
+			<div class="title title_fz36 title__section-subtitle">Works</div>
 			<div class="divider"></div>
 
 			<div class="portfolio__wrapper">
@@ -376,56 +369,44 @@
 	</section>
 
 	<section class="price">
-        <div class="container">
-            <h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
-            <div class="divider"></div>
-    
-            <div class="price__wrapper">
-                <div class="price__item">
-                    <div class="price__type">Landing-page</div>
-                    <div class="price__count">от 8000 руб.</div>
-                    <div class="price__descr">
-                        Одностраничный сайт для презентации услуг/товаров/...
-                    </div>
-                </div>
-                <div class="price__item">
-                    <div class="price__type">Web-приложение</div>
-                    <div class="price__count">от 28000 руб.</div>
-                    <div class="price__descr">
-                        Приложение внутри браузера для лучшего комфорта
-                    </div>
-                </div>
-                <div class="price__item">
-                    <div class="price__type">Корпоративный сайт</div>
-                    <div class="price__count">от 20000 руб.</div>
-                    <div class="price__descr">
-                        Сайт для вашего бизнеса или компании
-                    </div>
-                </div>
-                <div class="price__item">
-                    <div class="price__type">Android/IOS Приложение</div>
-                    <div class="price__count">от 25000 руб.</div>
-                    <div class="price__descr">
-                        Приложение для смартфона любой ОС
-                    </div>
-                </div>
-                <div class="price__item">
-                    <div class="price__type">Интернет-магазин</div>
-                    <div class="price__count">от 30000 руб.</div>
-                    <div class="price__descr">
-                        Инструмент для ваших продаж в сети
-                    </div>
-                </div>
-                <div class="price__item">
-                    <div class="price__type">Дизайн</div>
-                    <div class="price__count">Индивидуально</div>
-                    <div class="price__descr">
-                        Создам дизайн для вашего сайта/приложения...
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		<div class="container">
+			<h2 class="title title_fz16 title__section-title">Price List</h2>
+			<div class="divider"></div>
+	
+			<div class="price__wrapper">
+				<div class="price__item">
+					<div class="price__type">Landing-page</div>
+					<div class="price__count">from 100 $</div>
+					<div class="price__descr">
+						One-page site for the presentation of services/products/...
+					</div>
+				</div>
+				
+				<div class="price__item">
+					<div class="price__type">Corporate website</div>
+					<div class="price__count">from 250 $</div>
+					<div class="price__descr">
+						Website for your business or company
+					</div>
+				</div>
+				
+				<div class="price__item">
+					<div class="price__type">Online store</div>
+					<div class="price__count">from 400 $</div>
+					<div class="price__descr">
+						A tool for your online sales
+					</div>
+				</div>
+				<div class="price__item">
+					<div class="price__type">Design</div>
+					<div class="price__count">Individually</div>
+					<div class="price__descr">
+						I will create a design for your website/application...
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section class="contacts">
 		<div class="container">
@@ -434,12 +415,12 @@
 					<img src="img/main_photo.jpg" alt="my photo">
 				</div>
 				<div class="contacts__descr">
-					<h2 class="title title_fz16 contacts__title">Контакты</h2>
-					<div class="title title_fz36 contacts__subtitle">Свяжитесь со мной</div>
+					<h2 class="title title_fz16 contacts__title">Contacts</h2>
+					<div class="title title_fz36 contacts__subtitle">Contact with me</div>
 					<div class="divider"></div>
 
 					<div class="title title_fz14 contacts__text">
-						Любым удобным для вас способом:
+						In any way convenient for you:
 					</div>
 					<div class="contacts__social">
 						<a href="#" class="contacts__link" target="_blank">
@@ -453,27 +434,27 @@
 						</a>
 					</div>
 					<div class="title title_fz14 contacts__text">
-						Или оставьте ваши данные и я сам вам напишу:
+						Or leave your details and I will write to you:
 					</div>
 
 					<form action="#" class="contacts__form">
 						<div class="contacts__input">
 							<input required name="name" id="name" type="text">
-							<label for="name">Ваше имя</label>
+							<label for="name">Your Name</label>
 						</div>
 						<div class="contacts__input">
 							<input required name="email" id="email" type="email">
-							<label for="email">Ваша почта</label>
+							<label for="email">Your Email</label>
 						</div>
 						<div class="contacts__textarea">
 							<textarea name="text" id="text"></textarea>
-							<label for="text">Ваше сообщение</label>
+							<label for="text">Your Message</label>
 						</div>
 						<div class="contacts__triggers">
-							<button class="contacts__btn btn">Отправить сообщение</button>
+							<button class="contacts__btn btn">Send Message!</button>
 							<div class="contacts__policy">
 								<input required type="checkbox">
-								<span>Я согласен(а) с <a href="policy.html">политикой конфиденциальности</a></span>
+								<span>I agree with <a href="policy.html">the privacy policy</a></span>
 							</div>
 						</div>
 					</form>
@@ -482,7 +463,12 @@
 			</div>
 		</div>
 	</section>
-	
+
+	<section class="test">
+		
+	</section>
+
+	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

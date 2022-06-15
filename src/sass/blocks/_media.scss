@@ -16,6 +16,9 @@
 	.container {
 		max-width: 960px;
 	}
+	.promo {
+		padding-top: 200px;
+	}
 	.about {
 		&__wrapper {
 			grid-template-columns: 400px 520px;
@@ -123,6 +126,9 @@
 		&_fz48 {
 			font-size: 40px;
 		}
+		&_name {
+			font-size: 50px;
+		}
 	}
 	.promo {
 		&__title {
@@ -213,7 +219,6 @@
 		}
 	}
 	.promo {
-		background: url('../img/main_bg.jpg') no-repeat 57%/cover;
 		&__btns {
 			margin-top: 30px;
 		}
@@ -249,6 +254,9 @@
 		}
 	}
 	.contacts {
+		&__wrapper {
+			grid-template-columns: 1fr;
+		}
 		&__form {
 			grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
 		}

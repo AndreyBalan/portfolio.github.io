@@ -44,7 +44,7 @@
 			position: absolute;
 			height: 18px;
 			padding:0 8px;
-			background-color: #fff;
+			background-color: #1F1E1C;
 			font-size: 14px;
 			margin-bottom: 0;
 			top: -10px;
@@ -73,6 +73,7 @@
 			height: 100%;
 			padding: 0 20px;
 			font-size: 12px;
+			background: #e8e8e8;
 		}
 	}
 	&__textarea {
@@ -84,6 +85,7 @@
 			resize: none;
 			padding: 20px;
 			font-size: 12px;
+			background: #e8e8e8;
 		}
 	}
 	&__btn {
@@ -91,5 +93,6 @@
 		font-weight: bold;
 		font-size: 14px;
 		line-height: 21px;
+		color: #000;
 	}
 }
