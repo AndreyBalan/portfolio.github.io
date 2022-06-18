@@ -8,6 +8,19 @@
 	align-items: center;
 	height: 340px;
 	z-index: 3;
+	transition: 1s;
+	&:hover {
+		transform: scale(1.5);
+	}
+	a {
+		transition: 1s;
+		padding: 5px;
+		border-radius: 5px;
+		&:hover {
+			background: none;
+			transform: rotate(90deg);
+		}
+	}
 	&__divider {
 		width: 2px;
 		height: 72px;

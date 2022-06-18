@@ -28,6 +28,15 @@ body {
 	margin: 25px auto 0 auto;
 }
 
+a {
+	&:hover {
+		background: $hover-color;
+		cursor: none;
+		box-shadow: 0 0 5px #31FFEE,0 0 25px #31FFEE,0 0 50px #31FFEE;
+	}
+}
+
+
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/button';

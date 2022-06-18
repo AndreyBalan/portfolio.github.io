@@ -19,6 +19,8 @@ counters.forEach( (item, i) => {
 
 new WOW().init();
 
+// cursor
+
 document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
 	t.style.left = n.clientX + "px", 
 	t.style.top = n.clientY + "px", 
@@ -43,3 +45,16 @@ for (var r = document.querySelectorAll(".hover-target"), a = r.length - 1; a >= 
 function o(t) {
 	t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
 }
+
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};
