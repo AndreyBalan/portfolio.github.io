@@ -8,6 +8,12 @@
 		width: 36px;
 		height: 36px;
 		border-radius: 100%;
-		background: $main-color;
+		background: $main-color;	
+	}
+	&:hover {
+		&:before {
+			background: $hover-color;
+			box-shadow: 0 0 5px #31FFEE,0 0 25px #31FFEE,0 0 50px #31FFEE;
+		}
 	}
 }

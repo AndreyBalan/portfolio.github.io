@@ -13,6 +13,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		// width: 270px;
+		transition: 0.5s;
+		&:hover {
+			transform: scale(1.1);
+			box-shadow: 0 0 5px #31FFEE,0 0 25px #31FFEE,0 0 50px #31FFEE;
+			border: none;
+		}
 		img {
 			width: 60%;
 			height: 60%;

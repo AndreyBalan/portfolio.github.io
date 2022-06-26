@@ -79,12 +79,12 @@
 
 			<nav>
 				<ul class="menu__list">
-					<li class="menu__link"><a href="#">Про мене</a></li>
-					<li class="menu__link"><a href="#">Досвід</a></li>
-					<li class="menu__link"><a href="#">Навички</a></li>
-					<li class="menu__link"><a href="#">Портфоліо</a></li>
-					<li class="menu__link"><a href="#">Прайс-лист</a></li>
-					<li class="menu__link"><a href="#">Контакти</a></li>
+					<li class="menu__link"><a href="#about">Про мене</a></li>
+					<li class="menu__link"><a href="#resume">Досвід</a></li>
+					<li class="menu__link"><a href="#skills">Навички</a></li>
+					<li class="menu__link"><a href="#portfolio">Портфоліо</a></li>
+					<li class="menu__link"><a href="#price">Прайс-лист</a></li>
+					<li class="menu__link"><a href="#contacts">Контакти</a></li>
 				</ul>
 			</nav>
 
@@ -113,7 +113,7 @@
 		<div class="menu__overlay"></div>
 	</div>
 
-	<section class="promo">
+	<section class="promo" id="promo">
 		<div class="hamburger hover-target">
 			<span></span>
 			<span class="long"></span>
@@ -279,12 +279,13 @@
 		</div>
 	</section>
 	
-	<section class="skills">
+	<section class="skills" id="skills">
 		<div class="container">
 			<h2 class="title title_fz16 title__section-title">Skills</h2>
 			<div class="title title_fz36 title__section-subtitle hover-target">Що я використовую</div>
 			<div class="divider"></div>
-			<div class="skills__wrapper">
+			<div class="skills__wrapper">		
+
 				<div class="skills__item animate__animated animate__fadeInLeft wow" data-wow-delay="0.2s">
 					<img src="icons/skills/html5.svg" alt="html5" class="skills__item-icon">
 				</div>
@@ -353,29 +354,23 @@
 			<div class="divider"></div>
 
 			<div class="portfolio__wrapper">
-				<a href="/uber" class="portfolio__item animate__animated animate__backInLeft wow" target="_blank">
-					<img src="img/works/uber.jpg" alt="uber">
+				<a href="/california" class="portfolio__item vertical-1 animate__animated animate__backInLeft wow" target="_blank">
+					<img src="img/works/california.png" alt="california">
 				</a>
-				<a href="/pulse" class="portfolio__item animate__animated animate__backInUp wow" target="_blank">
+				<a href="/pulse" class="portfolio__item horizontal-1 animate__animated animate__backInUp wow" target="_blank">
 					<img src="img/works/pulse.jpg" alt="pulse">
 				</a>
-				<a href="#" class="portfolio__item animate__animated animate__backInUp wow">
-					<img src="img/works/bread.jpg" alt="test">
+				<a href="/uber" class="portfolio__item vertical-2 animate__animated animate__backInRight wow" target="_blank">
+					<img src="img/works/uber.png" alt="test">
 				</a>
-				<a href="#" class="portfolio__item vertical animate__animated animate__backInRight wow">
-					<img src="img/works/plans.jpg" alt="test">
-				</a>
-				<a href="/wp" class="portfolio__item animate__animated animate__backInLeft wow" target="_blank">
-					<img src="img/works/ipad.jpg" alt="wp-landing">
-				</a>
-				<a href="/monde" class="portfolio__item horizontal animate__animated animate__backInUp wow">
+				<a href="/monde" class="portfolio__item horizontal-2 animate__animated animate__backInUp wow" target="_blank">
 					<img src="img/works/monde.jpg" alt="monde">
 				</a>
 			</div>
 		</div>
 	</section>
 
-	<section class="price">
+	<section class="price" id="price">
 		<div class="container">
 			<h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
 			<div class="divider"></div>
@@ -415,7 +410,7 @@
 		</div>
 	</section>
 
-	<section class="contacts animate__animated animate__fadeInUp wow">
+	<section class="contacts animate__animated animate__fadeInUp wow" id="contacts">
 		<div class="container">
 			<div class="contacts__wrapper">
 				<div class="contacts__photo">
@@ -485,6 +480,14 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- <a href="#promo" class="pageup">
+		<svg width="40" height="40" viewBox="0 0 512 512" fill="#30A7E2" xmlns="http://www.w3.org/2000/svg">
+			<path d="M256 0C114.6 0 0 114.6 0 256C0 397.4 114.6 512 256 512C397.4 512 512 397.4 512 256C512 114.6 397.4 0 256 0ZM390.6 310.6C378.1 323.1 357.85 323.1 345.35 310.6L256 221.3L166.6 310.6C154.1 323.1 133.85 323.1 121.35 310.6C108.85 298.1 108.85 277.85 121.35 265.35L233.35 153.35C239.6 147.1 247.8 144 256 144C264.2 144 272.38 147.125 278.62 153.375L390.62 265.375C403.1 277.9 403.1 298.1 390.6 310.6Z" fill="#30A7E2"/>
+			</svg>
+		
+	</a> -->
+
 
 	<section class="test">
 		
