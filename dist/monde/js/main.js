@@ -5,7 +5,36 @@ $(function() {
         dots: true,
         autoplay: true,
         autoplaySpeed: 3000,
-        fade: true
+        fade: true,
+        responsive: [
+            {
+              breakpoint: 6001,
+              settings: {
+                dots: false
+              }
+            },
+          ]
     });
+
+    $(".menu__btn").click(function() {
+        $(".header__menu-list").slideToggle()
+    });
+
+    $(".top__to-go").on("click","a", function (event) {
+       
+                //отменяем стандартную обработку нажатия по ссылке
+                event.preventDefault();
+         
+                //забираем идентификатор бока с атрибута href
+                var id  = $(this).attr('href'),
+         
+                //узнаем высоту от начала страницы до блока на который ссылается якорь
+                    top = $(id).offset().top;
+                 
+                //анимируем переход на расстояние - top за 1500 мс
+                $('body,html').animate({scrollTop: top}, 900);
+            });
+        
+
 
 });
