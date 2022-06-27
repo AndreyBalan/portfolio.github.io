@@ -50,6 +50,11 @@
 				grid-column: unset;
 			}
 		}
+		&__item {
+			img {
+				object-fit: cover;
+			}
+		}
 	}
 	.contacts {
 		padding-top: 60px;
