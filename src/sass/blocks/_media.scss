@@ -16,9 +16,6 @@
 	.container {
 		max-width: 960px;
 	}
-	.promo {
-		padding-top: 200px;
-	}
 	.about {
 		&__wrapper {
 			grid-template-columns: 400px 520px;
@@ -227,7 +224,6 @@
 		}
 	}
 	.promo {
-		padding-top: 120px;
 		&__btns {
 			margin-top: 30px;
 		}

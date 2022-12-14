@@ -21,10 +21,13 @@
 		font-size: 48px;
 	}
 	&_name {
-		font-size: 60px;
+		font-size: 70px;
 		line-height: 60px;
 		margin-top: 20px;
 		margin-bottom: 20px;
+	}
+	&_promo {
+		letter-spacing: 10px;
 	}
 	&__section-title {
 		position: relative;

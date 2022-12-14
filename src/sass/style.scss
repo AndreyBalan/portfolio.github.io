@@ -13,7 +13,6 @@
 body {
 	background: $bg-color;
 	color: #e8e8e8;
-	cursor: none;
 }
 
 .container {
@@ -31,12 +30,12 @@ body {
 a {
 	&:hover {
 		background: $hover-color;
-		cursor: none;
 		box-shadow: 0 0 5px #31FFEE,0 0 25px #31FFEE,0 0 50px #31FFEE;
 	}
 }
 
-
+@import 'blocks/particles';
+@import 'blocks/animatedText';
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/button';
@@ -48,5 +47,4 @@ a {
 @import 'blocks/portfolio';
 @import 'blocks/price';
 @import 'blocks/contacts';
-@import 'blocks/cursor';
 @import 'blocks/media';

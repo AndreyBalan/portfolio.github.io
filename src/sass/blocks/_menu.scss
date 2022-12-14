@@ -41,7 +41,6 @@
 		padding-top: 140px;
 		padding-left: 40px;
 		background: linear-gradient(#30A7E2, #31FFEE);
-		cursor: none;
 		transition: all 0.6s;
 		z-index: 10;
 	}
@@ -49,6 +48,12 @@
 		position: absolute;
 		top: 25px;
 		right: 25px;
+		transition: all 0.6s;
+		&:hover {
+			scale: 1.2;
+			transform: rotate(360deg);
+			cursor: pointer;
+		}
 	}
 	&__list {
 		list-style-type: none;
