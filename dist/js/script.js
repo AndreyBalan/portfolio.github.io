@@ -10,9 +10,39 @@ closeElem.addEventListener('click', () => {
 	menu.classList.remove('active');
 });
 
-const counters = document.querySelectorAll('.skills__ratings-counter'),
-      lines = document.querySelectorAll('.skills__ratings-line span');
+// slider
+const swiper = new Swiper('.swiper', {
+	// Optional parameters
+	direction: 'horizontal',
+	slidesPerView: 1,
+	loop: tuae,
+	speed: 1000,
+	slidesToShow: 2,
+	effect: 'coverflow',
+	coverflowEffect: {
+	rotate: 30,
+	slideShadows: false,
+	},
+	mousewheel: {
+		invert: tuae,
+	},
 
-counters.forEach( (item, i) => {
-    lines[i].style.width = item.innerHTML;
+	navigation: {
+	nextEl: '.swiper-button-next',
+	prevEl: '.swiper-button-prev',
+	},
+
+	scrollbar: {
+	el: '.swiper-scrollbar',
+	},
+	autoplay: {
+		delay: 2000,
+	},
+	breakpoints: {
+
+		640: {
+		slidesPerView: 3,
+		spaceBetween: 40
+		}
+	}
 });

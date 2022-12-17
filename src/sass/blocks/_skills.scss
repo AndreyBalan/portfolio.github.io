@@ -1,18 +1,18 @@
 .skills {
-	padding: 120px 10px 0 10px;
+	padding-top: 120px;
 	&__wrapper {
 		display: grid;
 		margin-top: 60px;
 		grid-template: repeat(2, 1fr) / repeat(4, 1fr);
 		grid-auto-rows: 1fr;
-		gap: 20px;
+		gap: 40px;
 	}
 	&__item {
 		img {
 			width: 40%;
 			height: 40%;
 			opacity: 0;
-			transition: ease .3s;
+			transition: ease .4s;
 		}
 		&:hover {
 			img {
@@ -61,18 +61,18 @@
 	border-radius: 8px;
 	background-image: linear-gradient(
 	var(--rotate)
-	, #5ddcff, #3c67e3 43%, #4e00c2);
+	, #30A7E2, #2c3e50 43%, #4ca1af);
 	position: absolute;
 	z-index: -1;
 	top: -1%;
 	left: -2%;
-	animation: spin 2.5s linear infinite;
+	animation: spin 4.5s linear infinite;
 }
 
 .skills__item::after {
 	position: absolute;
 	content: "";
-	top: calc(var(--skills__item-height) / 6);
+	top: calc(40% / 6);
 	left: 0;
 	right: 0;
 	z-index: -1;
@@ -80,10 +80,9 @@
 	width: 100%;
 	margin: 0 auto;
 	transform: scale(0.8);
-	filter: blur(calc(var(--skills__item-height) / 6));
 	background-image: linear-gradient(
 	var(--rotate)
-	, #5ddcff, #3c67e3 43%, #4e00c2);
+	, #5ddcff, #2c3e50 43%, #30A7E2);
 	opacity: 1;
 	transition: opacity .5s;
 	animation: spin 2.5s linear infinite;

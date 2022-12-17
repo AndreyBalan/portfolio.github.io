@@ -1,3 +1,45 @@
+// animation start
+.ml6 {
+	position: relative;
+	font-weight: 900;
+	font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.2em;
+	padding-right: 0.05em;
+	padding-bottom: 0.1em;
+	overflow: hidden;
+}
+
+.ml6 .letter {
+	display: inline-block;
+	line-height: 1em;
+}
+// animation start
+.ml9 {
+	position: relative;
+	font-weight: 200;
+	font-size: 4em;
+  }
+  
+  .ml9 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.2em;
+	padding-right: 0.05em;
+	padding-bottom: 0.1em;
+	overflow: hidden;
+  }
+  
+  .ml9 .letter {
+	transform-origin: 50% 100%;
+	display: inline-block;
+	line-height: 1em;
+  }
+// animation start
 .ml11 {
 	font-weight: 700;
 	font-size: 3.5em;
@@ -25,23 +67,43 @@
 	top: 0; 
 	left: 0;
 }
-
-.ml6 {
-	position: relative;
+// animation start
+.ml2 {
 	font-weight: 900;
-	font-size: 3.3em;
+	font-size: 3.5em;
 }
 
-.ml6 .text-wrapper {
+.ml2 .letter {
+	display: inline-block;
+	line-height: 1em;
+}
+
+// animation start
+.ml14 {
+	font-weight: 200;
+	font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
 	position: relative;
 	display: inline-block;
-	padding-top: 0.2em;
+	padding-top: 0.1em;
 	padding-right: 0.05em;
-	padding-bottom: 0.1em;
-	overflow: hidden;
+	padding-bottom: 0.15em;
 }
 
-.ml6 .letter {
+.ml14 .line {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-color: #fff;
+	transform-origin: 100% 100%;
+	bottom: 0;
+}
+
+.ml14 .letter {
 	display: inline-block;
 	line-height: 1em;
 }

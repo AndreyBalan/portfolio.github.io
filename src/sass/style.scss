@@ -27,13 +27,6 @@ body {
 	margin: 25px auto 0 auto;
 }
 
-a {
-	&:hover {
-		background: $hover-color;
-		box-shadow: 0 0 5px #31FFEE,0 0 25px #31FFEE,0 0 50px #31FFEE;
-	}
-}
-
 @import 'blocks/particles';
 @import 'blocks/animatedText';
 @import 'blocks/promo';
@@ -47,4 +40,5 @@ a {
 @import 'blocks/portfolio';
 @import 'blocks/price';
 @import 'blocks/contacts';
+@import 'blocks/footer';
 @import 'blocks/media';
