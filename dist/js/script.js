@@ -1,12 +1,27 @@
+// loader
+window.onload = function () {
+    document.body.classList.add("loaded_hiding");
+    window.setTimeout(function () {
+        document.body.classList.add("loaded");
+        document.body.classList.remove("loaded_hiding");
+    }, 500);
+};
+
+//hamburger
+
 const hamburger = document.querySelector(".hamburger"),
     menu = document.querySelector(".menu"),
-    closeElem = document.querySelector(".menu__close");
+    closeElem = document.querySelector(".menu__close"),
+    closeOverlay = document.querySelector(".menu__overlay");
 
 hamburger.addEventListener("click", () => {
     menu.classList.add("active");
 });
 
 closeElem.addEventListener("click", () => {
+    menu.classList.remove("active");
+});
+closeOverlay.addEventListener("click", () => {
     menu.classList.remove("active");
 });
 
