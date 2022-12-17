@@ -1,0 +1,45 @@
+html,
+body.cursoring,
+body.cursoring *,
+body.cursoring *:hover {
+    cursor: none !important;
+}
+.cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate3d(0, 0, 0);
+    transition: 0.4s opacity ease;
+}
+.aiming .cursor {
+    opacity: 0;
+}
+.cursor {
+    &--small {
+        width: 5px;
+        height: 5px;
+        left: -2.5px;
+        top: -2.5px;
+        border-radius: 50%;
+        z-index: 11000;
+        background: #fff;
+        will-change: transform;
+    }
+    &--circle {
+        width: 24px;
+        height: 24px;
+        will-change: transform, width, height;
+        z-index: 11000;
+        &:before {
+            content: "";
+            position: absolute;
+            width: calc(100% + 10px);
+            height: calc(100% + 10px);
+            border-radius: 160px;
+            top: -5px;
+            left: -5px;
+            box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.4);
+        }
+    }
+}
