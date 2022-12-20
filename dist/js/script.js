@@ -7,6 +7,11 @@ window.onload = function () {
     }, 500);
 };
 
+// lang switch
+const lang_switch = document.querySelector(".lang_switch");
+
+lang_switch.onclick = () => lang_switch.classList.toggle("changed");
+
 //hamburger
 
 const hamburger = document.querySelector(".hamburger"),

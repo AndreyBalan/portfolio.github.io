@@ -152,27 +152,3 @@
 .hover:hover {
     color: $hover-color;
 }
-
-.change-lang {
-    position: absolute;
-    right: 27px;
-    top: 50px;
-    width: 40px;
-    text-align: center;
-    height: 40px;
-    background: rgba(0, 0, 0, 0);
-    border-radius: 10px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    transition: 0.3s;
-    z-index: 1;
-    outline: none;
-    border: 1px solid #151812;
-    option {
-        background: $main-color;
-    }
-    &:hover {
-        scale: 1.1;
-    }
-}
