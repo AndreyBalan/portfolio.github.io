@@ -83,3 +83,6 @@ for (let smoothLink of smoothLinks) {
         });
     });
 }
+
+// passive
+document.addEventListener("touchstart", onTouchStart, { passive: true });
