@@ -34,7 +34,7 @@ closeOverlay.addEventListener("click", () => {
 const swiper = new Swiper(".swiper", {
     // Optional parameters
     direction: "horizontal",
-    slidesPerView: 2,
+    slidesPerView: 1,
     loop: true,
     speed: 1000,
     slidesToShow: 1,
@@ -83,6 +83,3 @@ for (let smoothLink of smoothLinks) {
         });
     });
 }
-
-// passive
-document.addEventListener("touchstart", onTouchStart, { passive: true });

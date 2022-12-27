@@ -109,9 +109,6 @@
             column-gap: 50px;
         }
     }
-    canvas {
-        display: none;
-    }
 }
 
 @media (max-width: 768px) {
@@ -237,6 +234,9 @@
         }
         &__skills {
             grid-template-columns: 1fr;
+        }
+        &__descr {
+            padding: 10px;
         }
     }
     .skills {
